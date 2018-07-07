@@ -58,5 +58,8 @@ public Course getCourse(@PathVariable int id)
 //}
 //return null;
 
+
+    @RequestMapping(value = "/find")
+    public void findcouurse(){}
 }
 
